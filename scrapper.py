@@ -215,7 +215,7 @@ for year in range(1980, 2017):
 
 # loop through our years to scrape
 # albums
-for index in range(11, 12):
+for index in range(0, len(years)):
     print(URLS[index])
     print(years[index])
     page = requests.get(URLS[index])
